@@ -11,6 +11,6 @@ export class AppService {
   }
 
   test() {
-    return 'hola azure!';
+    return 'Hello Azure!';
   }
 }
