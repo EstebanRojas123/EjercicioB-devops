@@ -9,4 +9,8 @@ export class AppService {
   saludo(nombre: string): string {
     return 'buenos dias ' + nombre + '!!!';
   }
+
+  test() {
+    return 'hola azure!';
+  }
 }
