@@ -10,7 +10,7 @@ export class AppService {
     return 'buenos dias ' + nombre + '!!!';
   }
 
-  test() {
+  nuevaRuta() {
     return 'Hello Azure!';
   }
 }

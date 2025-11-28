@@ -15,4 +15,9 @@ export class AppController {
   saludo(@Param('nombre') nombre: string) {
     return this.appService.saludo(nombre);
   }
+
+  @Get('/nuevo')
+  nuevaRuta() {
+    return this.appService.nuevaRuta();
+  }
 }
