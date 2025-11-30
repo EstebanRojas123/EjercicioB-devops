@@ -11,6 +11,6 @@ export class AppService {
   }
 
   nuevaRuta() {
-    return 'Hello Azure!';
+    return 'Hello from the new route!';
   }
 }
