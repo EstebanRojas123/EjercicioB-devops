@@ -14,7 +14,7 @@ export class AppService {
     return 'Hello from the new route!';
   }
 
-  rutaTest() {
-    return 'Hello from the new route!';
+  ruta2() {
+    return 'This is a test route!';
   }
 }

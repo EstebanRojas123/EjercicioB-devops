@@ -20,9 +20,9 @@ export class AppController {
   nuevaRuta() {
     return this.appService.nuevaRuta();
   }
-  
-  @Get('/test')
+
+  @Get('/nuevo2')
   otraRuta() {
-    return { message: 'This is a test route' };
+    return this.appService.ruta2();
   }
 }
