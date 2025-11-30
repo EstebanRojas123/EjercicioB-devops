@@ -13,4 +13,8 @@ export class AppService {
   nuevaRuta() {
     return 'Hello from the new route!';
   }
+
+  rutaTest() {
+    return 'Hello from the new route!';
+  }
 }
