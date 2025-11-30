@@ -27,7 +27,7 @@ export class AppController {
   }
 
   @Get('/nuevo3')
-  otraRuta1() {
+  terceraRuta() {
     return this.appService.ruta3();
   }
 
